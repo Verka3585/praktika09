@@ -16,7 +16,7 @@
 	<head> 
 		<script src="https://code.jquery.com/jquery-1.8.3.js"></script>
 		<meta charset="utf-8">
-		<title> Admin панель </title>
+		<title>Admin панель</title>
 		
 		<link rel="stylesheet" href="style.css">
 	</head>

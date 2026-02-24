@@ -12,7 +12,7 @@
 	<head> 
 		<script src="https://code.jquery.com/jquery-1.8.3.js"></script>
 		<meta charset="utf-8">
-		<title> Личный кабинет </title>
+		<title>Личный кабинет</title>
 		
 		<link rel="stylesheet" href="style.css">
 	</head>

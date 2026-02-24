@@ -21,7 +21,7 @@ $header_base64 = $tokenParts[0];
 $payload_base64 = $tokenParts[1];
 $provided_signature = $tokenParts[2];
 
-$unsignedToken = $header_base64 . '.' . $payload_base64;
+$unsignedToken = $header_base64.'.'.$payload_base64;
 $signature = hash_hmac('sha256', $unsignedToken, $SECRET_KEY, true);
 $base64UrlSignature = str_replace(['+', '/', '='], ['-', '_', ''], base64_encode($signature));
 
